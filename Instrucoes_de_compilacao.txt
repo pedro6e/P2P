@@ -1,0 +1,15 @@
+Instruções de compilação
+1. Salve os arquivos "Mensagem.java", "Servidor.java" e "Peer.java" em uma subpasta "napster" de uma pasta qualquer de caminho "path".
+2. Nos terminais de 1 a 4, digite "cd path".
+3. Num terminal 1, digite "cd napster".
+3. No mesmo terminal 1, digite "javac Mensagem.java Servidor.java Peer.java"
+4. No terminal 1, digite "cd ..".
+5. No terminal 1, digite "java napster.Servidor" para inicializar o Servidor.
+6. Nos terminais de 2 a 4, digite "java napster.Peer" para inicializar 3 Peers. 
+
+Exemplos de comandos:
+JOIN, C:\\Users\\Pedro M\\Desktop\\Peer1
+SEARCH, arquivo1.txt					 
+DOWNLOAD, comm.txt, PortaFixaOutroPeer        (PortaFixaOutroPeer é vista no SEARCH)
+UPDATE, C:\\Users\\Pedro M\\Desktop\\Peer1    (automático após DOWNLOAD)
+LEAVE
